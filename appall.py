@@ -63,4 +63,4 @@ def getStudent(quer : model, mdl : int):
         return "Unsafe to drink"
 
 # gunicorn -w 4 -k uvicorn.workers.UvicornWorker mai:myApp
-async io.run(myApp)
+# async io.run(myApp)
